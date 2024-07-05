@@ -7,9 +7,9 @@ function getDistance($cepOri, $cepDes)
 }
 try {
 	
-	require_once "./connect.php";
-	require_once "./fnValidateCEP.php";
-	require_once "./fnCalculateDistance.php";
+	require_once "functions/connect.php";
+	require_once "functions/fnValidateCEP.php";
+	require_once "functions/fnCalculateDistance.php";
 
 	$cepOri = isset($_GET["cepOri"]) ? $_GET["cepOri"] : null;
 	$cepDes = isset($_GET["cepDes"]) ? $_GET["cepDes"] : null;

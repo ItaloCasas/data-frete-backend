@@ -5,25 +5,25 @@ try {
 	if ($action) {
 		switch ($action) {
 			case "validateCEP":
-				require_once "./validateCEP.php";
+				require_once "routes/validateCEP.php";
 				break;
 			case "calculateDistance":
-				require_once "./calculateDistance.php";
+				require_once "routes/calculateDistance.php";
 				break;
 			case "persist":
-				require_once "./persist.php";
+				require_once "routes/persist.php";
 				break;
 			case "list":
-				require_once "./list.php";
+				require_once "routes/list.php";
 				break;
 			case "update":
-				require_once "./update.php";
+				require_once "routes/update.php";
 				break;
 			case "delete":
-				require_once "./delete.php";
+				require_once "routes/delete.php";
 				break;
 			case "import":
-				require_once "./persist.php";
+				require_once "routes/persist.php";
 				break;
 
 			default:

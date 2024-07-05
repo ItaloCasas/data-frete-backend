@@ -1,6 +1,6 @@
 <?php
 try {
-	require_once ("./connect.php");
+	require_once ("functions/connect.php");
 
 	$id = isset($_GET['id']) ? $_GET['id'] : null;
 

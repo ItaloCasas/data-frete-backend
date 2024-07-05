@@ -1,6 +1,6 @@
 <?php
 try {
-	require_once("./fnValidateCEP.php");
+	require_once("functions/fnValidateCEP.php");
 
 	$value = isset($_GET['value']) ? $_GET['value'] : null;
 	if ($value) {

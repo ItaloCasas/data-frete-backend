@@ -1,6 +1,6 @@
 <?php
 try {
-	require_once "./fnCalculateDistance.php";
+	require_once "functions/fnCalculateDistance.php";
 	
 	$lat1 = isset($_GET["lat1"]) ? $_GET["lat1"] : null;
 	$lat2 = isset($_GET["lat2"]) ? $_GET["lat2"] : null;

@@ -7,7 +7,7 @@ function formatDate($date) {
 	return date_format($date,"d/m/Y H:i:s");
 }
 try {
-	require_once ("./connect.php");
+	require_once ("functions/connect.php");
 
 	$sql = "SELECT * FROM distancia";
 	$result = $conn->query($sql);
